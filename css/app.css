@@ -1,0 +1,63 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    background-color: rgb(253, 249, 226);
+    color: #830606;
+}
+
+body{
+    color: #830606;
+    background-color: rgb(253, 249, 226);
+}
+
+a{
+    color: #830606;
+}
+
+.title-bar{
+    padding: 1.4rem;
+    background-color: rgb(253, 249, 226);
+    
+}
+
+.menu{
+    text-align: left;
+}
+
+.cell.small-6.large-3.align-left #logo {
+    height: min-content;
+    width: 100mm;
+}
+
+#informationofivan {
+    background-color: rgb(253, 249, 226);
+    text-align: center;
+}
+
+#main{
+    align-items: center;
+}
+
+#headshot1 img{
+    float: left;
+}
+
+#school a:hover{
+    color: blueviolet;
+}
+
+#float p{
+    text-align: right;
+}
+
+#intern a:hover{
+    color: rgb(43, 135, 228);
+}
+
+#funcover{
+    align-items: center;
+}
+
+#second img{
+    float: right;
+}

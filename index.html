@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ivan Jimenez | Home</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+<body style="background-color: rgb(253, 249, 226);">
+    <div class="title-bar">
+        <div class="title-bar-right">
+            
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div id="logo" class="cell small-6 large-3 align-left" style="color: #830606; height: min-content;"><img src="output-onlinepngtools.png" alt="logo" style="width: 30mm;"/></div>
+                    <div class="show-for-large cell small-1 large-8">
+                        <ul class="menu align-right">
+                            <li class="menu-text"><a href="index.html" target="_self">Home</a></li>
+                            <li class="menu-text"><a href="projects.html" target="_self">Projects</a></li>
+                            <li class="menu-text"><a href="resume.html" target="_self">Resume</a></li>
+                            <li class="menu-text"><a href="fun.html" target="_self">Fun</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell small-6">
+                        <div class="hide-for-large">
+                            <button class="menu-icon" type="button" data-toggle="offCanvasRight" style="background: #830606"></button>
+
+                            <div class="off-canvas-wrapper">
+                                <div class="cell small-11">
+                                    <div class="off-canvas position-right is-transition-overlap" id="offCanvasRight" style="background-color: rgb(253, 249, 226);" data-off-canvas data-transition="overlap">
+                                        <button class="close-button" aria-label="Close menu" type="button" data-close>
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+
+                                        <ul class="vertical menu">
+                                            <li class="menu-text"><a href="index.html" target="_self">Home</a></li>
+                                            <li class="menu-text"><a href="projects.html" target="_self">Projects</a></li>
+                                            <li class="menu-text"><a href="resume.html" target="_self">Resume</a></li>
+                                            <li class="menu-text"><a href="fun.html" target="_self">Fun</a></li>
+                                        </ul>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- main content within a `grid-container` -->
+        
+    <div class="grid-container" style="background-color: rgb(253, 249, 226);">
+        <!-- `grid-x` represents a row Main-->
+        <div class="grid-x grid-padding-x align-center" style="border: 3px solid #830606;"> <h1><b>HOME</b></h1> </div>
+
+
+
+        <div class="grid-x grid-padding-x align-center">
+            <img id="main" src="main.jpeg" alt="main"/>
+        </div>
+        <!-- About Me Section -->
+        <div class="grid-x grid-padding-x align-center">
+            <div class="small-5 large-4">
+                <img id="headshot1" src="headshot1.jpeg" alt="headshot" style="float: right; padding: 0.5rem ;"/>
+            </div>
+
+            <div class="small-7 large-8">
+                <h3 class="float-center"><b>ABOUT IVAN JIMENEZ</b></h3>
+
+                <p >My name is Ivan Jimenez and I'm from Minneapolis. I'm currently pursuing an Applied Mathematics degree at the University
+                    of St. Thomsas with Computer Science being one of my minors. I recently gotten an interest in coding, so I might consider pursuing
+                    a Masters in Software Engineering. I enjoy bowling, listening to music, play pool, and play soccer. One of my goals is to find a career path
+                    that I would enjoy doing and allows me to balance it with my personal life.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- include before closing body tag-->
+    
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

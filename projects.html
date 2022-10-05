@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ivan Jimenez | Projects</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+<body style="background-color: rgb(253, 249, 226);">
+    <div class="title-bar">
+        <div class="title-bar-right">
+            
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div id="logo" class="cell small-6 large-3 align-left" style="color: #830606; height: min-content;"><img src="output-onlinepngtools.png" alt="logo" style="width: 30mm;"/></div>
+                    <div class="show-for-large cell small-1 large-8">
+                        <ul class="menu align-right">
+                            <li class="menu-text"><a href="index.html" target="_self">Home</a></li>
+                            <li class="menu-text"><a href="projects.html" target="_self">Projects</a></li>
+                            <li class="menu-text"><a href="resume.html" target="_self">Resume</a></li>
+                            <li class="menu-text"><a href="fun.html" target="_self">Fun</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell small-6">
+                        <div class="hide-for-large">
+                            <button class="menu-icon" type="button" data-toggle="offCanvasRight" style="background: #830606"></button>
+
+                            <div class="off-canvas-wrapper">
+                                <div class="cell small-11">
+                                    <div class="off-canvas position-right is-transition-overlap" id="offCanvasRight" style="background-color: rgb(253, 249, 226);" data-off-canvas data-transition="overlap">
+                                        <button class="close-button" aria-label="Close menu" type="button" data-close>
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+
+                                        <ul class="vertical menu">
+                                            <li class="menu-text"><a href="index.html" target="_self">Home</a></li>
+                                            <li class="menu-text"><a href="projects.html" target="_self">Projects</a></li>
+                                            <li class="menu-text"><a href="resume.html" target="_self">Resume</a></li>
+                                            <li class="menu-text"><a href="fun.html" target="_self">Fun</a></li>
+                                        </ul>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- main content within a `grid-container` -->
+        
+    <div class="grid-container" style="background-color: rgb(253, 249, 226);">
+        <!-- `grid-x` represents a row Main-->
+        <div class="grid-x grid-padding-x align-center" style="border: 3px solid #830606;"> <h1><b>PROJECTS</b></h1> </div>
+
+
+
+        <div class="grid-x grid-padding-x align-center">
+            <img id="main" src="projectcover.jpeg" alt="main"/>
+        </div>
+        <!-- Project-->
+        <div class="grid-x grid-padding-x align-center">
+            <div class="cell small-5 large-4">
+                <img id="headshot1" src="google.png" alt="headshot" style="float: right; padding: 0.5rem ;"/>
+            </div>
+
+            <div class="cell small-7 large-8">
+                <h3 class="float-center"><b>Google Earth Project</b></h3>
+
+                <p>During the fall of 2017, as a research assistant at the University of St.Thomas, I was assigned the Google Earth Project.
+                    This project was based on the article, <i>Mapping public and private spaces of urban agriculture in Chicago through the analysis
+                        of high-resolution aerial images in Google Earth</i>, by John R. Taylor & Sarah Taylor Lovell. The end goal of this project
+                    was to map all possible private and public gardens in St. Paul's watershed region on Google Earth. Throughout a few months staring 
+                    at the computer, I pinned down all the gardens that were in shaded region. The gardens I found consisted of large community gardens and
+                    small gardens from different homes, which I had to zoom in each house so I wouldn't miss any. Thus, the final result is on the screenshot.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="grid-x grid-padding-x align-center">
+            <div class="cell small-7 large-8">
+                <h3 class="float-center"><b>Accounting Project</b></h3>
+
+                <p>In my introduction to financial accounting course, we were assigned into groups for the Financial Statement Analysis Project.
+                    The company we were given to do an analysis was Target Corporation. The purpose of this project was to provide an analysis of
+                    Target's financial statement by collecting data on Target's financial condition, operating results, cash flows and capital structure
+                    from the Form 10-K. My analysis was focused on specialize to market. The sales were increasing by a little bit during the pandemic.
+                    Some recommendations I came up with in order to increase sales were to tailor to different geographic region by adding more ethnic
+                    foods and collaborate with new brands and influencers. 
+                </p>
+            </div>
+
+            <div class="cell small-5 large-4">
+                <img id="second" src="accounting1.png" alt="project2" style="float: right; padding: 0.5rem ;"/>
+            </div>
+        </div>
+
+        <div class="grid-x grid-padding-x align-center">
+            <div class="cell small-5 large-4">
+                <img id="headshot1" src="musicproject.png" alt="project3" style="float: right; padding: 0.5rem ;"/>
+            </div>
+
+            <div class="cell small-7 large-8">
+                <h3 class="float-center"><b>Music Project</b></h3>
+
+                <p>A few weeks ago, we were assigned to mix a song that the proffessor is about to release. In the Arts of Mixing course, we are currently
+                    learning about different techniques to mix a song in order for it to be ready for its release. The purpose of these projects is to apply the mixing
+                    techniques we learn in class to either others or our own songs in order to sound the best it can across streaming platforms. In this project, 
+                    I've added an equalizer to dial out frequencies I don't want from certain sounds, added a compressor to reduce dynamics of a sound, and added reverb to give 
+                    the mix warmth and space.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- include before closing body tag-->
+    
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
